@@ -25,9 +25,10 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
- ## PROGRAM
- ```
- from pythonping import ping 
+
+## PROGRAM
+```
+from pythonping import ping 
 s=socket.socket() 
 s.bind(('localhost'8000)) 
 s.listen(5) 
@@ -58,7 +59,7 @@ from scapy.all import*
 target = ["www.google.com"] 
 result, unans = traceroute(target,maxttl=32) 
 print(result,unans)
-``
+```
 
 ## CLIENT
 
